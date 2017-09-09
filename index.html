@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<body>
+<style>
+.YellowButton {
+  padding: 30px 40px;
+  font-size: 32px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #ffdd00;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.YellowButton:hover {background-color: #e8c900}
+.YellowButton:active {
+  background-color: #e8c900;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.RedButton {
+  padding: 30px 40px;
+  font-size: 32px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #ad4545;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.RedButton:hover {background-color: #963a3a}
+.RedButton:active {
+  background-color: #963a3a;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.OrangeButton {
+  padding: 30px 40px;
+  font-size: 32px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #f98e02;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.OrangeButton:hover {background-color: #ea8400}
+.OrangeButton:active {
+  background-color: #ea8400;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.DiscoButton {
+  padding: 30px 40px;
+  font-size: 32px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background: linear-gradient(rgb(66, 132, 0), rgb(0, 118, 145));
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.DiscoButton:hover {background: linear-gradient(rgb(52, 104, 0), rgb(117, 0, 76))}
+.DiscoButton:active {
+  background: linear-gradient(rgb(52, 104, 0), rgb(117, 0, 76));
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.OffButton {
+  padding: 30px 40px;
+  font-size: 32px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #bcbcbc;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.OffButton:hover {background-color: #a5a5a5}
+.OffButton:active {
+  background-color: #a5a5a5;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+</style>
+<p><h3 style="color:red;">
+	<strong><span style="font-family:comic sans ms,cursive;"><span style="font-size:36px;"><span style="color:#800080;">Mert4x4&#39;s Led</span></span></span></strong></h3></p>
+<button class="RedButton" onclick="GO('/RED')" id="Button_Switch">RED</button>
+<button class="YellowButton" onclick="GO('/YELLOW')" id="Button_Switch">YELLOW</button>
+<button class="OrangeButton" onclick="GO('/ORANGE')" id="Button_Switch">ORANGE</button>
+<button class="DiscoButton" onclick="GO('/DISCO')" id="Button_Switch">DISCO</button>
+<button class ="OffButton" onclick="GO('/OFF')" id="Button_Switch">OFF</button>
+<script>
+function GO(url){window.location = url;}
+</script>
+</body>
+</html>
